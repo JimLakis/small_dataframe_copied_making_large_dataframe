@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 class ConcatCopyOfDfs:
     def __init__(self, df1: pd.DataFrame, number_of_copies: int):
         self._df1 = df1
